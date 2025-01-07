@@ -1,21 +1,25 @@
 # List-of-Useful-Git-Commands
+
 ### Git is a version control system that helps programmers and developers manage and track changes to their code at any time. It allows multiple people to work on a project simultaneously and also keeps track of who made what changes and when. Git stores these changes in a repository.
+
 ## Create a new repository on the command line
-echo "# List-of-Useful-Git-Commands" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/prodipalways/List-of-Useful-Git-Commands.git
-git push -u origin main
+echo "# List-of-Useful-Git-Commands" >> README.md</br>
+git init</br>
+git add README.md</br>
+git commit -m "first commit"</br>
+git branch -M main</br>
+git remote add origin https://github.com/prodipalways/</br>List-of-Useful-Git-Commands.git</br>
+git push -u origin main</br>
+
 ## Push an existing repository from the command line
-git remote add origin https://github.com/prodipalways/List-of-Useful-Git-Commands.git
-git branch -M main
-git push -u origin main
+git remote add origin https://github.com/prodipalways/</br>List-of-Useful-Git-Commands.git</br>
+git branch -M main</br>
+git push -u origin main</br>
+
 ## List of Top Useful Git Commands
 Git commands are crucial for efficient collaboration and project management. In this article, we’ll explore a list of important Git commands like git commands to push, git commit command, git pull command, and git push command, etc that will help to improve workflow and optimize productivity. These are a Git Commands list that can be used frequently on Git.
 1. git help
-Take help from the Git help section for different commands and other errors.  
+Take help from the Git help section for different commands and other errors.
 git help
 
 2. git config
