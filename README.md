@@ -40,189 +40,188 @@ Sets configuration values for your user name on git.</br>
 
 ### 5. git config –-global color.ui
 To see different colors on the command line for different outputs.</br>
-git config –-global color.ui true
+<pre>git config –-global color.ui true</pre>
 
 ### 6. mkdir
 Create a directory if not created initially.</br>
-mkdir store
+<pre>mkdir store</pre>
 
 ### 7. cd
 To go inside the directory and work on its contents.</br> 
-cd store
+<pre>cd store</pre>
 
 ### 8. git init
 To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.</br>
-git init
+<pre>git init</pre>
 
 ### 9. git status
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.</br>
-git status
+<pre>git status</pre>
 
 ### 10. git add Readme.txt
 To add a file Readme.txt to the staging area to track its changes.</br>
-git add Readme.txt
+<pre>git add Readme.txt</pre>
 
 ### 11. git commit -m “ ”
 To commit our changes(taking a snapshot) and provide a message to remember for future reference.</br>
-git commit -m “Created a Readme.txt”
+<pre>git commit -m “Created a Readme.txt”</pre>
 
 ### 12. git log
 To check the history of commits for our reference.</br>
-git log
+<pre>git log</pre>
 
 ### 13. git add
 To add a specific list of files to the staging area.</br>
-git add
+<pre>git add</pre>
 
 ### 14. git add –all
 To add all files of the current directory to the staging area.</br>
-git add --all
+<pre>git add --all</pre>
 
 ### 15. git add *.txt
 To add all text files of the current directory to the staging area.</br>
-git add *.txt
+<pre>git add *.txt</pre>
 
 ### 16. git add docs/*.txt
 To add all text files of a particular directory(docs) to the staging area.</br>
-git add docs/*.txt
+<pre>git add docs/*.txt</pre>
 
 ### 17. git add docs/
 To add all files in a particular directory(docs) to the staging area.</br>
-git add docs/
+<pre>git add docs/</pre>
 
 ### 18. git add “*.txt”
 To add text files of the entire project to the staging area.</br>
-git add “*.txt”
+<pre>git add “*.txt”</pre>
 
 ### 19. git diff
 To figure out what changes you made since the last commit.</br>
-git diff
+<pre>git diff</pre>
 
 ### 20. git reset head license
 To undo the staging of the file that was added in the staging area.</br>
-git reset head license
+<pre>git reset head license</pre>
 
 ### 21. git checkout –license
 To Blow away all changes since the last commit of the file.</br>
-git checkout –license
+<pre>git checkout –license</pre>
 
 ### 22. git commit -a -m “ ”
 To add any of our tracked files to the staging area and commit them by providing a message to remember.</br>
-git commit -a -m “Readme.md”
+<pre>git commit -a -m “Readme.md”</pre>
 
 ### 23. git reset –soft HEAD^
 To undo the last commit and bring the file to the staging area.</br>
-git reset –soft HEAD^
+<pre>git reset –soft HEAD^</pre>
 
 ### 24. git reset –hard HEAD^
 To undo the last commit and remove the file from the staging area as well(In case we went horribly wrong).</br>
-git reset –hard HEAD^
+<pre>git reset –hard HEAD^</pre>
 
 ### 25. git reset –hard HEAD^^
 To undo the last 2 commits and all changes.</br>
-git reset –hard HEAD^^
+<pre>git reset –hard HEAD^^</pre>
 
 ### 26. git remote add origin
 These commands make a bookmark which signifies that this particular remote refers to this URL. This remote will be used to pull any content from the directory and push our local content to the global server.</br>
-git remote add origin https://github.com/madaan123/MyAlgorithms.git
+<pre>git remote add origin https://github.com/madaan123/MyAlgorithms.git</pre>
 
 ### 27. git remote add <address>  
 To add new remotes to our local repository for a particular git address.</br>
-git remote add <address> 
+<pre>git remote add <address></pre> 
 
 ### 28. git remove rm
 To remove a remote from our local repository.</br>
-git remove rm
+<pre>git remove rm</pre>
 
 ### 29. git push -u origin master
 To push all the contents of our local repository that belong to the master branch to the server(Global repository).</br>
-git push -u origin master
+<pre>git push -u origin master</pre>
 
 ### 30. git clone https://github.com/madaan123/MyAlgorithms.git
 To clone or make a local copy of the global repository in your system 
 (git clone command downloads the repository and creates a remote named origin which can be checked by the command – git remote -v).</br>
-git clone https://github.com/madaan123/MyAlgorithms.git
+<pre>git clone https://github.com/madaan123/MyAlgorithms.git</pre>
 
 ### 31. git branch Testing
 To create a new branch named Testing.</br>
-git branch Testing
+<pre>git branch Testing</pre>
 
 ### 32. git branch
 To see all the branches present and current branches that we are working on.</br>
-git branch
+<pre>git branch</pre>
 
 ### 33. git checkout Testing
 To switch to branch Testing from the master branch.</br>
-git checkout Testing
+<pre>git checkout Testing</pre>
 
 ### 34. ls
 To see directories and files in the current directory.</br>
-ls
-
+<pre>ls</pre>
 
 ### 35. ls -la
 To see hidden directories and files within the current directory.</br>
-ls -la
+<pre>ls -la</pre>
 
 ### 36. git merge Testing
 To merge the Testing branch with the master branch.</br>
-git merge Testing
+<pre>git merge Testing</pre>
 
 ### 37. git branch -d Testing
 To delete the Testing branch.</br>
-git branch -d Testing
+<pre>git branch -d Testing</pre>
 
 ### 38. git checkout -b admin
 To create a new branch admin and set it as the current branch.</br>
-git checkout -b admin
+<pre>git checkout -b admin</pre>
 
 ### 39. git branch -r
 To look at all the remote branches.</br>
-git branch -r
+<pre>git branch -r</pre>
 
 ### 40. git branch -D Testing 
 To forcefully delete a branch without making commits.</br>
-git branch -D Testing
+<pre>git branch -D Testing</pre>
 
 ### 41. git tag
 To see the list of available tags.</br>
-git tag
+<pre>git tag</pre>
 
 ### 42. git checkout v0.0.1
 To set the current tag to v0.0.1.</br>
-git checkout v0.0.1
+<pre>git checkout v0.0.1</pre>
 
 ### 43. git tag -a v0.0.3 -m “version 0.0.3”
 To create a new tag.</br>
-git tag -a v0.0.3 -m “version 0.0.3”
+<pre>git tag -a v0.0.3 -m “version 0.0.3”</pre>
 
 ### 44. git push –tags
 To push the tags to the remote repository.</br>
-git push –tags
+<pre>git push –tags</pre>
 
 ### 45. git fetch
 To fetch down any changes from the global repository to the current repository.</br>
-git fetch
+<pre>git fetch</pre>
 
 ### 46. git stash
 To move staged files to the stash area which is present in the staging area.</br>
-git stash 
+<pre>git stash</pre>
 
 ### 47. git stash pop
 To get back the files that are present in the stash area.</br>
-git stash pop
+<pre>git stash pop</pre>
 
 ### 48. git stash clear
 To clear the stash folder.</br>
-git stash clear
+<pre>git stash clear</pre>
 
 ### 49. git rebase
 Three tasks are performed by git rebase </br>
 1.	Move all changes to master which are not in origin/master to a temporary area.
 2.	Run all origin master commits.
 3.	Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.</br>
-git rebase
+<pre>git rebase</pre>
 
 ### 50. git –version
 used to show the current version of Git</br>
-git –version
+<pre>git –version</pre>
