@@ -3,7 +3,7 @@
 Git is a version control system that helps programmers and developers manage and track changes to their code at any time. It allows multiple people to work on a project simultaneously and also keeps track of who made what changes and when. Git stores these changes in a repository.
 
 ## Create a new repository on the command line
-<pre>{
+<pre>
 echo "# List-of-Useful-Git-Commands" >> README.md</br>
 git init</br>
 git add -A</br>
@@ -11,13 +11,14 @@ git commit -m "first commit"</br>
 git branch -M main</br>
 git remote add origin https://github.com/prodipalways/</br>
 git push -u origin main
-}</pre>
+</pre>
 
 ## Push an existing repository from the command line
 <pre>
-git remote add origin https://github.com/prodipalways/</br>List-of-Useful-Git-Commands.git</br>
+git remote add origin https://github.com/prodipalways/</br>
+List-of-Useful-Git-Commands.git</br>
 git branch -M main</br>
-git push -u origin main</br>
+git push -u origin main
 </pre>
 
 ## List of Top Useful Git Commands
