@@ -10,19 +10,19 @@ git config --global user.name abc@gmail.com
 
 ## Create a new repository on the command line
 <pre>
-echo "# List-of-Useful-Git-Commands" >> README.md</br>
-git init</br>
-git add -A</br>
-git commit -m "first commit"</br>
-git branch -M main</br>
-git remote add origin https://github.com/prodipalways/</br>
+echo "# List-of-Useful-Git-Commands" >> README.md
+git init
+git add -A
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/prodipalways/
 git push -u origin main
 </pre>
 
 ## Push an existing repository from the command line
 <pre>
-git remote add origin https://github.com/prodipalways/</br>
-git branch -M main</br>
+git remote add origin https://github.com/prodipalways/
+git branch -M main
 git push -u origin main
 </pre>
 
