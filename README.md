@@ -85,73 +85,61 @@ git config --global user.email
 To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.
 <pre>git init</pre>
 
-### 8. mkdir
-Create a directory if not created initially.
-<pre>mkdir demo</pre>
-
-### 9. cd
-To go inside the directory and work on its contents.
-<pre>cd demo</pre>
-
-### 10. cd ..
-To get out of current directory
-<pre>cd ..</pre>
-
-### 11. ls
+### 8. ls
 To see directories and files in the current directory.
 <pre>ls</pre>
 
-### 12. ls -la
+### 9. ls -la
 To see hidden directories and files within the current directory.
 <pre>ls -la
 ls -lart</pre>
 
-### 13. git status
+### 10. git status
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
 <pre>git status</pre>
 
-### 14. git add readme.txt
+### 11. git add readme.txt
 To add a file readme.txt to the staging area to track its changes.
 <pre>git add readme.txt</pre>
 
-### 15. git reset
+### 12. git reset
 To revert from Tracking staged area to Untracked area
 <pre>git reset</pre>
 
-### 16. git commit -m ""
+### 13. git commit -m ""
 To commit our changes(taking a snapshot) and provide a message to remember for future reference.
 <pre>git commit -m "Created a Readme.txt"</pre>
 
-### 17. git log
+### 14. git log
 To check the history of commits for our reference.
 <pre>git log</pre>
 
-### 18. git add fileName
+### 15. git add fileName
 To add a specific list of files to the staging area.
 <pre>git add index.html</pre>
 
-### 19. git add –all
+### 16. git add –all
 To add all files of the current directory to the staging area.
 <pre>git add --all
 git add -A</pre>
 
-### 20. git add *.txt
+### 17. git add *.txt
 To add all text files of the current directory to the staging area.
 <pre>git add *.txt</pre>
 
-### 21. git add docs/*.txt
+### 18. git add docs/*.txt
 To add all text files of a particular directory(docs) to the staging area.
 <pre>git add docs/*.txt</pre>
 
-### 22. git add docs/
+### 19. git add docs/
 To add all files in a particular directory(docs) to the staging area.
 <pre>git add docs/</pre>
 
-### 23. git add "*.txt"
+### 20. git add "*.txt"
 To add text files of the entire project to the staging area.
 <pre>git add "*.txt"</pre>
 
-### 24. git diff
+### 21. git diff
 To figure out what changes you made since the last commit.
 <pre>git diff</pre>
 
@@ -274,3 +262,16 @@ Three tasks are performed by git rebase
 ### 4. git config --global color.ui
 To see different colors on the command line for different outputs
 <pre>git config --global color.ui true</pre>
+
+### 8. mkdir
+Create a directory if not created initially.
+<pre>mkdir demo</pre>
+
+### 9. cd
+To go inside the directory and work on its contents.
+<pre>cd demo</pre>
+
+### 10. cd ..
+To get out of current directory
+<pre>cd ..</pre>
+
