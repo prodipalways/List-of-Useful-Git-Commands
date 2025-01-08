@@ -47,14 +47,18 @@ Take help from the Git help section for different commands and other errors
 
 ### 2. git config --global user.name “ ”
 Sets configuration values for your user name on git
-<pre>git config –-global user.email ashishmadaan6@gmail.com</pre>
-
-### 4. git config –-global user.email ” “
-Sets configuration values for your user email on git
 <pre>
   git config --global user.name "abc"
   OR,
   git config --global user.name abc
+</pre>
+
+### 3. git config –-global user.email ” “
+Sets configuration values for your user email on git
+<pre>
+  git config --global user.email "abc@gmail.com"
+  OR,
+  git config --global user.name abc@gmail.com
 </pre>
 
 ### 5. git config –-global color.ui
