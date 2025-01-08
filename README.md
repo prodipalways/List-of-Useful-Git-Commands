@@ -61,9 +61,9 @@ Sets configuration values for your user email on git
   git config --global user.name abc@gmail.com
 </pre>
 
-### 5. git config –-global color.ui
+### 4. git config --global color.ui
 To see different colors on the command line for different outputs
-<pre>git config –-global color.ui true</pre>
+<pre>git config --global color.ui true</pre>
 
 ### 6. mkdir
 Create a directory if not created initially.
