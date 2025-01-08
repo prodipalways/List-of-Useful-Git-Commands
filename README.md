@@ -45,14 +45,14 @@ Git commands are crucial for efficient collaboration and project management. In 
 Take help from the Git help section for different commands and other errors
 <pre>git help</pre>
 
-### 2. git config –-global user.name “ ”</br>
+### 2. git config --global user.name “ ”
 Sets configuration values for your user name on git
 <pre>git config --global user.email "abc@gmail.com"
 OR,
 git config --global user.email abc@gmail.com
 </pre>
 
-### 4. git config –-global user.email ” “</br>
+### 4. git config –-global user.email ” “
 Sets configuration values for your user email on git
 <pre>git config –-global user.email ashishmadaan6@gmail.com</pre>
 
