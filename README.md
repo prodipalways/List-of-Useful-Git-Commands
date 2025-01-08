@@ -45,11 +45,7 @@ Git commands are crucial for efficient collaboration and project management. In 
 Take help from the Git help section for different commands and other errors
 <pre>git help</pre>
 
-### 2. git config</br>
-To set the basic configurations on Git like your name and email
-<pre>git config</pre>
-
-### 3. git config –-global user.name “ ”</br>
+### 2. git config –-global user.name “ ”</br>
 Sets configuration values for your user name on git
 <pre>git config –-global user.name “Ashish Madaan”</pre>
 
