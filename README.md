@@ -93,6 +93,10 @@ Create a directory if not created initially.
 To go inside the directory and work on its contents.
 <pre>cd demo</pre>
 
+### 10. cd ..
+To get out of current directory
+<pre>cd ..</pre>
+
 ### 8. git status
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
 <pre>git status</pre>
