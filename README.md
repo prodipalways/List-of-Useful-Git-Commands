@@ -114,6 +114,10 @@ To see what’s changed since the last commit. It shows all the files that have 
 To add a file readme.txt to the staging area to track its changes.
 <pre>git add readme.txt</pre>
 
+### 15. git reset
+To revert from Tracking staged area to Untracked area
+<pre>git reset</pre>
+
 ### 11. git commit -m “ ”
 To commit our changes(taking a snapshot) and provide a message to remember for future reference.
 <pre>git commit -m “Created a Readme.txt”</pre>
