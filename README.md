@@ -62,7 +62,7 @@ Sets configuration values for your user name on git
 git config --global user.name "abc"
 git config --global user.name abc
 </pre>
-## 4. git config --global user.name
+### 4. git config --global user.name
 Check Git User Name
 <pre>
 git config --global user.name
@@ -75,7 +75,7 @@ git config --global user.email "abc@gmail.com"
 git config --global user.name abc@gmail.com
 </pre>
 
-## 6. git config --global user.email
+### 6. git config --global user.email
 Check Git Email
 <pre>
 git config --global user.email
