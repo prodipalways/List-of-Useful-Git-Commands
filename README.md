@@ -2,6 +2,10 @@
 
 Git is a version control system that helps programmers and developers manage and track changes to their code at any time. It allows multiple people to work on a project simultaneously and also keeps track of who made what changes and when. Git stores these changes in a repository.
 
+## Set Git UserName and Email
+git config --global user.email abc@gmail.com
+git config --global user.name abc@gmail.com
+
 ## Create a new repository on the command line
 <pre>
 echo "# List-of-Useful-Git-Commands" >> README.md</br>
