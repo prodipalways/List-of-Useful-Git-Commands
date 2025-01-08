@@ -5,6 +5,9 @@ Git is a version control system that helps programmers and developers manage and
 ## Open or Close Explorer Command
 <pre>Ctrl + b</pre>
 
+## Open Terminal
+<pre>Ctrl + Shift + `</pre>
+
 ## Set Git UserName and Email
 <pre>
 git config --global user.email abc@gmail.com
