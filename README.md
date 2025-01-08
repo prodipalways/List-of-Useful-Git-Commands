@@ -81,17 +81,17 @@ Check Git Email
 git config --global user.email
 </pre>
 
-### 7. mkdir
-Create a directory if not created initially.
-<pre>mkdir demo</pre>
-
-### 8. cd
-To go inside the directory and work on its contents.
-<pre>cd demo</pre>
-
 ### 7. git init
 To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.
 <pre>git init</pre>
+
+### 8. mkdir
+Create a directory if not created initially.
+<pre>mkdir demo</pre>
+
+### 9. cd
+To go inside the directory and work on its contents.
+<pre>cd demo</pre>
 
 ### 8. git status
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
