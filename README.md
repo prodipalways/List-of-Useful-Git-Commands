@@ -41,7 +41,11 @@ git push -u origin main
 ## List of Top Useful Git Commands
 Git commands are crucial for efficient collaboration and project management. In this article, we’ll explore a list of important Git commands like git commands to push, git commit command, git pull command, and git push command, etc that will help to improve workflow and optimize productivity. These are a Git Commands list that can be used frequently on Git.
 
-### 1. git help
+### 1. git --version
+used to show the current version of Git
+<pre>git --version</pre>
+
+### 2. git help
 Take help from the Git help section for different commands and other errors
 <pre>git help</pre>
 
@@ -60,10 +64,6 @@ Sets configuration values for your user email on git
   OR,
   git config --global user.name abc@gmail.com
 </pre>
-
-### 4. git config --global color.ui
-To see different colors on the command line for different outputs
-<pre>git config --global color.ui true</pre>
 
 ### 5. mkdir
 Create a directory if not created initially.
@@ -245,6 +245,6 @@ Three tasks are performed by git rebase
 3.	Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.
 <pre>git rebase</pre>
 
-### 50. git --version
-used to show the current version of Git
-<pre>git --version</pre>
+### 4. git config --global color.ui
+To see different colors on the command line for different outputs
+<pre>git config --global color.ui true</pre>
