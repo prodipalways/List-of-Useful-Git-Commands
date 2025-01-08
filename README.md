@@ -43,7 +43,9 @@ Git commands are crucial for efficient collaboration and project management. In 
 
 ### 1. git --version
 used to show the current version of Git
-<pre>git --version</pre>
+<pre>git --version
+  git -v
+</pre>
 
 ### 2. git help
 Take help from the Git help section for different commands and other errors
