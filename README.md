@@ -43,30 +43,42 @@ Git commands are crucial for efficient collaboration and project management. In 
 
 ### 1. git --version
 used to show the current version of Git
-<pre>git --version
+<pre>
+git --version
 git -v
 </pre>
 
 ### 2. git help
 Take help from the Git help section for different commands and other errors
-<pre>git help
-git -h
-git --help</pre>
-
-### 2. git config --global user.name " "
-Sets configuration values for your user name on git
 <pre>
-  git config --global user.name "abc"
-  OR,
-  git config --global user.name abc
+git help
+git -h
+git --help
 </pre>
 
-### 3. git config --global user.email " "
+### 3. git config --global user.name " "
+Sets configuration values for your user name on git
+<pre>
+git config --global user.name "abc"
+git config --global user.name abc
+</pre>
+## 4. git config --global user.name
+Check Git User Name
+<pre>
+git config --global user.name
+</pre>
+
+### 5. git config --global user.email " "
 Sets configuration values for your user email on git
 <pre>
-  git config --global user.email "abc@gmail.com"
-  OR,
-  git config --global user.name abc@gmail.com
+git config --global user.email "abc@gmail.com"
+git config --global user.name abc@gmail.com
+</pre>
+
+## 6. git config --global user.email
+Check Git Email
+<pre>
+git config --global user.email
 </pre>
 
 ### 5. mkdir
