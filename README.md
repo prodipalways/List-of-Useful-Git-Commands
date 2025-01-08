@@ -65,19 +65,19 @@ Sets configuration values for your user email on git
 To see different colors on the command line for different outputs
 <pre>git config --global color.ui true</pre>
 
-### 6. mkdir
+### 5. mkdir
 Create a directory if not created initially.
 <pre>mkdir store</pre>
 
-### 7. cd
+### 6. cd
 To go inside the directory and work on its contents.
 <pre>cd store</pre>
 
-### 8. git init
+### 7. git init
 To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.
 <pre>git init</pre>
 
-### 9. git status
+### 8. git status
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
 <pre>git status</pre>
 
