@@ -81,13 +81,13 @@ Check Git Email
 git config --global user.email
 </pre>
 
-### 5. mkdir
+### 7. mkdir
 Create a directory if not created initially.
-<pre>mkdir store</pre>
+<pre>mkdir demo</pre>
 
-### 6. cd
+### 8. cd
 To go inside the directory and work on its contents.
-<pre>cd store</pre>
+<pre>cd demo</pre>
 
 ### 7. git init
 To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.
