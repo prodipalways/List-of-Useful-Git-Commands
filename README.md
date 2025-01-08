@@ -16,8 +16,8 @@ git config --global user.name abc
 
 ## Check Git UserName and Email
 <pre>
-git config --global user.email abc@gmail.com
-git config --global user.name abc
+git config --global user.email
+git config --global user.name
 </pre>
 
 ## Create a new repository on the command line
