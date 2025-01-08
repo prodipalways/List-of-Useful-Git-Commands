@@ -11,7 +11,13 @@ Git is a version control system that helps programmers and developers manage and
 ## Set Git UserName and Email
 <pre>
 git config --global user.email abc@gmail.com
-git config --global user.name abc@gmail.com
+git config --global user.name abc
+</pre>
+
+## Check Git UserName and Email
+<pre>
+git config --global user.email abc@gmail.com
+git config --global user.name abc
 </pre>
 
 ## Create a new repository on the command line
