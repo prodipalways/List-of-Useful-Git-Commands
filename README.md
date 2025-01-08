@@ -49,7 +49,9 @@ git -v
 
 ### 2. git help
 Take help from the Git help section for different commands and other errors
-<pre>git help</pre>
+<pre>git help
+git -h
+git --help</pre>
 
 ### 2. git config --global user.name " "
 Sets configuration values for your user name on git
