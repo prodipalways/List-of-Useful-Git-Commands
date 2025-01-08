@@ -45,7 +45,7 @@ Git commands are crucial for efficient collaboration and project management. In 
 Take help from the Git help section for different commands and other errors
 <pre>git help</pre>
 
-### 2. git config --global user.name “ ”
+### 2. git config --global user.name " "
 Sets configuration values for your user name on git
 <pre>
   git config --global user.name "abc"
@@ -53,7 +53,7 @@ Sets configuration values for your user name on git
   git config --global user.name abc
 </pre>
 
-### 3. git config –-global user.email ” “
+### 3. git config --global user.email " "
 Sets configuration values for your user email on git
 <pre>
   git config --global user.email "abc@gmail.com"
