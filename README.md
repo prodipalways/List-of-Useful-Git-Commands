@@ -20,7 +20,7 @@ git config --global user.email
 git config --global user.name
 </pre>
 
-## Create a new repository on the command line
+## Create A New Repository On The Command Line
 <pre>
 echo "# List-of-Useful-Git-Commands" >> README.md
 git init
@@ -31,7 +31,7 @@ git remote add origin https://github.com/abc/
 git push -u origin main
 </pre>
 
-## Push an existing repository from the command line
+## Push An Existing Repository From The Command Line
 <pre>
 git remote add origin https://github.com/abc/
 git branch -M main
