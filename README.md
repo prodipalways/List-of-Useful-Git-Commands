@@ -2,19 +2,19 @@
 
 Git is a version control system that helps programmers and developers manage and track changes to their code at any time. It allows multiple people to work on a project simultaneously and also keeps track of who made what changes and when. Git stores these changes in a repository.
 
-## To Open OR Close Explorer Commands
+## 📝 To Open OR Close Explorer Commands
 <pre>Ctrl + b</pre>
 
-## To Open A New Terminal
+## 📝To Open A New Terminal
 <pre>Ctrl + Shift + `</pre>
 
-## Set Git UserName and Email
+## 📝 Set Git UserName and Email
 <pre>
 git config --global user.email abc@gmail.com
 git config --global user.name abc
 </pre>
 
-## Check Git UserName and Email
+## 📝 Check Git UserName and Email
 <pre>
 git config --global user.email
 git config --global user.name
