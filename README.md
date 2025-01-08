@@ -42,23 +42,23 @@ git push -u origin main
 Git commands are crucial for efficient collaboration and project management. In this article, we’ll explore a list of important Git commands like git commands to push, git commit command, git pull command, and git push command, etc that will help to improve workflow and optimize productivity. These are a Git Commands list that can be used frequently on Git.
 
 ### 1. git help
-Take help from the Git help section for different commands and other errors.
+Take help from the Git help section for different commands and other errors
 <pre>git help</pre>
 
 ### 2. git config</br>
-To set the basic configurations on Git like your name and email.
+To set the basic configurations on Git like your name and email
 <pre>git config</pre>
 
 ### 3. git config –-global user.name “ ”</br>
-Sets configuration values for your user name on git.
+Sets configuration values for your user name on git
 <pre>git config –-global user.name “Ashish Madaan”</pre>
 
 ### 4. git config –-global user.email ” “</br>
-Sets configuration values for your user email on git.
+Sets configuration values for your user email on git
 <pre>git config –-global user.email ashishmadaan6@gmail.com</pre>
 
 ### 5. git config –-global color.ui
-To see different colors on the command line for different outputs.
+To see different colors on the command line for different outputs
 <pre>git config –-global color.ui true</pre>
 
 ### 6. mkdir
