@@ -110,9 +110,9 @@ ls -lart</pre>
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
 <pre>git status</pre>
 
-### 10. git add Readme.txt
-To add a file Readme.txt to the staging area to track its changes.
-<pre>git add Readme.txt</pre>
+### 14. git add readme.txt
+To add a file readme.txt to the staging area to track its changes.
+<pre>git add readme.txt</pre>
 
 ### 11. git commit -m “ ”
 To commit our changes(taking a snapshot) and provide a message to remember for future reference.
