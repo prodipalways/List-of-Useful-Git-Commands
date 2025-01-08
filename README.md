@@ -60,7 +60,7 @@ git --help
 Sets configuration values for your user name on git
 <pre>
 git config --global user.name "abc"
-git config --global user.name abc
+git config --global user.name def
 </pre>
 ### 4. git config --global user.name
 Check Git User Name
@@ -72,7 +72,7 @@ git config --global user.name
 Sets configuration values for your user email on git
 <pre>
 git config --global user.email "abc@gmail.com"
-git config --global user.name abc@gmail.com
+git config --global user.name def@gmail.com
 </pre>
 
 ### 6. git config --global user.email
