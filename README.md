@@ -97,7 +97,16 @@ To go inside the directory and work on its contents.
 To get out of current directory
 <pre>cd ..</pre>
 
-### 8. git status
+### 11. ls
+To see directories and files in the current directory.
+<pre>ls</pre>
+
+### 12. ls -la
+To see hidden directories and files within the current directory.
+<pre>ls -la
+ls -lart</pre>
+
+### 13. git status
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
 <pre>git status</pre>
 
@@ -197,14 +206,6 @@ To see all the branches present and current branches that we are working on.
 ### 33. git checkout Testing
 To switch to branch Testing from the master branch.
 <pre>git checkout Testing</pre>
-
-### 34. ls
-To see directories and files in the current directory.
-<pre>ls</pre>
-
-### 35. ls -la
-To see hidden directories and files within the current directory.
-<pre>ls -la</pre>
 
 ### 36. git merge Testing
 To merge the Testing branch with the master branch.
