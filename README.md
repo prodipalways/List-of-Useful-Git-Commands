@@ -15,21 +15,22 @@ git init
 git add -A
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/prodipalways/
+git remote add origin https://github.com/abc/
 git push -u origin main
 </pre>
 
 ## Push an existing repository from the command line
 <pre>
-git remote add origin https://github.com/prodipalways/
+git remote add origin https://github.com/abc/
 git branch -M main
 git push -u origin main
 </pre>
 
 ## List of Top Useful Git Commands
 Git commands are crucial for efficient collaboration and project management. In this article, we’ll explore a list of important Git commands like git commands to push, git commit command, git pull command, and git push command, etc that will help to improve workflow and optimize productivity. These are a Git Commands list that can be used frequently on Git.
-### 1. git help</br>
-Take help from the Git help section for different commands and other errors.</br>
+
+### 1. git help
+Take help from the Git help section for different commands and other errors.
 <pre>git help</pre>
 
 ### 2. git config</br>
