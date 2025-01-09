@@ -106,18 +106,18 @@ To add a file index.html to the staging area to track its changes.
 To revert from Tracking staged area to Untracked area
 <pre>git reset</pre>
 
-### 13. git commit -m ""
-To commit our changes(taking a snapshot) and provide a message to remember for future reference.
-<pre>git commit -m "Created a Readme.txt"</pre>
-
-### 14. git add fileName
+### 13. git add fileName
 To add a specific list of files to the staging area.
 <pre>git add index.html</pre>
 
-### 15. git add –all
+### 14. git add –all
 To add all files of the current directory to the staging area.
 <pre>git add --all
 git add -A</pre>
+
+### 15. git commit -m ""
+To commit our changes(taking a snapshot) and provide a message to remember for future reference.
+<pre>git commit -m "Created a Readme.txt"</pre>
 
 ### 16. git add *.txt
 To add all text files of the current directory to the staging area.
