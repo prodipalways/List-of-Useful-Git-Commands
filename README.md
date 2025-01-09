@@ -98,9 +98,9 @@ ls -lart</pre>
 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
 <pre>git status</pre>
 
-### 11. git add readme.txt
-To add a file readme.txt to the staging area to track its changes.
-<pre>git add readme.txt</pre>
+### 11. git add index.html
+To add a file index.html to the staging area to track its changes.
+<pre>git add index.html</pre>
 
 ### 12. git reset
 To revert from Tracking staged area to Untracked area
