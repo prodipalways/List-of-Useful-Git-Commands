@@ -20,7 +20,7 @@ git config --global user.email
 git config --global user.name
 </pre>
 
-## Create A New Repository On The Command Line
+## Push Project From Visual Studio Code To GitHub
 <pre>
 echo "# List-of-Useful-Git-Commands" >> README.md
 git init
