@@ -116,7 +116,7 @@ To add all files of the current directory to the staging area.
 git add -A</pre>
 
 ### 15. git commit -m ""
-To commit our changes(taking a snapshot) and provide a message to remember for future reference.
+To commit our changes(to save our changes) and provide a message to remember for future reference.
 <pre>git commit -m "Created a Readme.txt"</pre>
 
 ### 16. git add *.txt
