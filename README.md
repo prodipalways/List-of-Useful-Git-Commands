@@ -32,7 +32,7 @@ git push -u origin main
 </pre>
 
 ## Pull Project From GitHub To Visual Studio Code
-Open VS Code > Install An Extension > GitHub Pull Requests (GitHub) > settings > Command Palette > git clone > give link of your repo > select repository location > create folder > select > File > Open Folder > Select Your Folder > 
+Open VS Code > Install An Extension > GitHub Pull Requests (GitHub) > settings > Command Palette > git clone >  clone from github > give link of your repo > select repository location > create folder > select > File > Open Folder > Select Your Folder > 
 Done
 
 ## Push An Existing Repository From The Command Line
