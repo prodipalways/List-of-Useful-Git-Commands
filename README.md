@@ -110,34 +110,34 @@ To revert from Tracking staged area to Untracked area
 To commit our changes(taking a snapshot) and provide a message to remember for future reference.
 <pre>git commit -m "Created a Readme.txt"</pre>
 
-### 14. git log
-To check the history of commits for our reference.
-<pre>git log</pre>
-
-### 15. git add fileName
+### 14. git add fileName
 To add a specific list of files to the staging area.
 <pre>git add index.html</pre>
 
-### 16. git add –all
+### 15. git add –all
 To add all files of the current directory to the staging area.
 <pre>git add --all
 git add -A</pre>
 
-### 17. git add *.txt
+### 16. git add *.txt
 To add all text files of the current directory to the staging area.
 <pre>git add *.txt</pre>
 
-### 18. git add docs/*.txt
+### 17. git add docs/*.txt
 To add all text files of a particular directory(docs) to the staging area.
 <pre>git add docs/*.txt</pre>
 
-### 19. git add docs/
+### 18. git add docs/
 To add all files in a particular directory(docs) to the staging area.
 <pre>git add docs/</pre>
 
-### 20. git add "*.txt"
+### 19. git add "*.txt"
 To add text files of the entire project to the staging area.
 <pre>git add "*.txt"</pre>
+
+### 20. git log
+To check the history of commits for our reference.
+<pre>git log</pre>
 
 ### 21. git diff
 To figure out what changes you made since the last commit.
