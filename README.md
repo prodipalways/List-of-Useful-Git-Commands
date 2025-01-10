@@ -147,60 +147,60 @@ To check the history of commits for our reference.
 To figure out what changes you made since the last commit.
 <pre>git diff</pre>
 
-### 20. git reset head license
+### 22. git reset head license
 To undo the staging of the file that was added in the staging area.
 <pre>git reset head license</pre>
 
-### 21. git checkout –license
+### 23. git checkout –license
 To Blow away all changes since the last commit of the file.
 <pre>git checkout –license</pre>
 
-### 22. git commit -a -m “ ”
+### 24. git commit -a -m “ ”
 To add any of our tracked files to the staging area and commit them by providing a message to remember.
 <pre>git commit -a -m “Readme.md”</pre>
 
-### 23. git reset –soft HEAD^
+### 25. git reset –soft HEAD^
 To undo the last commit and bring the file to the staging area.
 <pre>git reset –soft HEAD^</pre>
 
-### 24. git reset –hard HEAD^
+### 26. git reset –hard HEAD^
 To undo the last commit and remove the file from the staging area as well(In case we went horribly wrong).
 <pre>git reset –hard HEAD^</pre>
 
-### 25. git reset –hard HEAD^^
+### 27. git reset –hard HEAD^^
 To undo the last 2 commits and all changes.
 <pre>git reset –hard HEAD^^</pre>
 
-### 26. git remote add origin
+### 28. git remote add origin
 These commands make a bookmark which signifies that this particular remote refers to this URL. This remote will be used to pull any content from the directory and push our local content to the global server.
 <pre>git remote add origin https://github.com/madaan123/MyAlgorithms.git</pre>
 
-### 27. git remote add <address>  
+### 29. git remote add <address>  
 To add new remotes to our local repository for a particular git address.
 <pre>git remote add <address></pre> 
 
-### 28. git remove rm
+### 30. git remove rm
 To remove a remote from our local repository.
 <pre>git remove rm</pre>
 
-### 29. git push -u origin master
+### 31. git push -u origin master
 To push all the contents of our local repository that belong to the master branch to the server(Global repository).
 <pre>git push -u origin master</pre>
 
-### 30. git clone https://github.com/madaan123/MyAlgorithms.git
+### 32. git clone https://github.com/madaan123/MyAlgorithms.git
 To clone or make a local copy of the global repository in your system 
 (git clone command downloads the repository and creates a remote named origin which can be checked by the command – git remote -v).
 <pre>git clone https://github.com/madaan123/MyAlgorithms.git</pre>
 
-### 31. git branch Testing
+### 33. git branch Testing
 To create a new branch named Testing.
 <pre>git branch Testing</pre>
 
-### 32. git branch
+### 34. git branch
 To see all the branches present and current branches that we are working on.
 <pre>git branch</pre>
 
-### 33. git checkout Testing
+### 35. git checkout Testing
 To switch to branch Testing from the master branch.
 <pre>git checkout Testing</pre>
 
@@ -263,19 +263,19 @@ Three tasks are performed by git rebase
 3.	Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.
 <pre>git rebase</pre>
 
-### 4. git config --global color.ui
+### 50. git config --global color.ui
 To see different colors on the command line for different outputs
 <pre>git config --global color.ui true</pre>
 
-### 8. mkdir
+### 51. mkdir
 Create a directory if not created initially.
 <pre>mkdir demo</pre>
 
-### 9. cd
+### 52. cd
 To go inside the directory and work on its contents.
 <pre>cd demo</pre>
 
-### 10. cd ..
+### 53. cd ..
 To get out of current directory
 <pre>cd ..</pre>
 
