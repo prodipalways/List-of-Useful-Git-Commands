@@ -13,6 +13,18 @@ Here Copy a Key past any text document for checking perpose. If key is create th
 ### 3. In Github
 Past Public Key → ADD SSH KEY
 Done...
+
+## Push Project From Visual Studio Code To GitHub New Repository
+<pre>
+echo "# List-of-Useful-Git-Commands" >> README.md
+git init
+git add -A
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abc/ (location)
+git push -u origin main
+</pre>
+
 ## 💎💎💎 Check fach and pull location 💎💎💎
 <pre>git remote --verbose</pre>
 
@@ -34,16 +46,7 @@ git config --global user.email
 git config --global user.name
 </pre>
 
-## Push Project From Visual Studio Code To GitHub New Repository
-<pre>
-echo "# List-of-Useful-Git-Commands" >> README.md
-git init
-git add -A
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/abc/ (location)
-git push -u origin main
-</pre>
+
 
 ## Pull Project From GitHub To Visual Studio Code
 Open VS Code > Install An Extension > GitHub Pull Requests (GitHub) > settings > Command Palette > git clone >  clone from github > give link of your repo > select repository location > create folder > select > File > Open Folder > Select Your Folder > 
