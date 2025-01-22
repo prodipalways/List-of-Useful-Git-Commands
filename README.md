@@ -5,7 +5,8 @@ Git is a version control system that helps programmers and developers manage and
 ## 💎💎💎 Connect Github and Git Use SSH Connection 💎💎💎
 ### In Github
 Profile → Settings → SSH and GPG Key → SSH Keys → New SSH Key → Title →
-### IN VS Code
+### VS Code Command:
+<pre>ssh-keygen -t ed25519 -C "yourmail@gmail.com"</pre>
 
 
 ## 🔑 To Open OR Close Explorer "VS Keyboard Shortcuts"
