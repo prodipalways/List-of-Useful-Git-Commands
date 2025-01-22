@@ -3,11 +3,18 @@
 Git is a version control system that helps programmers and developers manage and track changes to their code at any time. It allows multiple people to work on a project simultaneously and also keeps track of who made what changes and when. Git stores these changes in a repository.
 
 ## 💎💎💎 Connect Github and Git Use SSH Connection 💎💎💎
-### In Github
+### 1. In Github
 Profile → Settings → SSH and GPG Key → SSH Keys → New SSH Key → Title →
-### VS Code Command:
+### 2. VS Code Command In Terminal:
 <pre>ssh-keygen -t ed25519 -C "yourmail@gmail.com"</pre>
-
+Press Enter 3 times
+<pre>cat ~/.ssh/id_ed25519.pub | clip</pre>
+Here Copy a Key past any text document for checking perpose. If key is create then...
+### 3. In Github
+Past Public Key
+Done...
+## Check fach and pull location
+<pre>git remote --verbose</pre>
 
 ## 🔑 To Open OR Close Explorer "VS Keyboard Shortcuts"
 <pre>Ctrl + b</pre>
