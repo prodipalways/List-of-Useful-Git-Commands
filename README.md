@@ -21,7 +21,17 @@ git init
 git add -A
 git commit -m "first commit"
 git branch -M main
-git remote add origin repository_location
+git remote add origin repository_SSH_Location
+git push -u origin main
+</pre>
+
+## Push An Existing Repository From The Command Line
+Clone Your Github Project First.
+### Git CLone Command
+<pre>git clone repository_link</pre>
+<pre>
+git branch -M main
+git remote add origin repository_SSH_Location
 git push -u origin main
 </pre>
 
@@ -51,16 +61,6 @@ git config --global user.name
 ## Pull Project From GitHub To Visual Studio Code
 Open VS Code > Install An Extension > GitHub Pull Requests (GitHub) > settings > Command Palette > git clone >  clone from github > give link of your repo > select repository location > create folder > select > File > Open Folder > Select Your Folder > 
 Done
-
-## Push An Existing Repository From The Command Line
-Clone Your Github Project First.
-### Git CLone Command
-<pre>git clone repository_link</pre>
-<pre>
-git branch -M main
-git remote add origin https://github.com/abc/
-git push -u origin main
-</pre>
 
 ## List of Top Useful Git Commands
 Git commands are crucial for efficient collaboration and project management. In this article, we’ll explore a list of important Git commands like git commands to push, git commit command, git pull command, and git push command, etc that will help to improve workflow and optimize productivity. These are a Git Commands list that can be used frequently on Git.
