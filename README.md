@@ -13,7 +13,7 @@ Here Copy a Key past any text document for checking perpose. If key is create th
 ### 3. In Github
 Past Public Key
 Done...
-## Check fach and pull location
+## 💎💎💎 Check fach and pull location 💎💎💎
 <pre>git remote --verbose</pre>
 
 ## 🔑 To Open OR Close Explorer "VS Keyboard Shortcuts"
