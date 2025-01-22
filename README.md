@@ -45,10 +45,10 @@ git push -u origin main
 <pre>git remote --verbose</pre>
 If your fetch and pull location is right then you can push your file
 
-## 💎💎💎 To Open OR Close Explorer "VS Keyboard Shortcuts" 💎💎💎
+## 💎💎💎 VS Code Command For Git 💎💎💎
+### 1. To Open OR Close Explorer "VS Keyboard Shortcuts"
 <pre>Ctrl + b</pre>
-
-## 💎💎💎 To Open A New Terminal "VS Keyboard Shortcuts" 💎💎💎
+## 2. To Open A New Terminal "VS Keyboard Shortcuts" 
 <pre>Ctrl + Shift + `</pre>
 
 ## 💎💎💎 Set Git UserName and Email On The Command Line 💎💎💎
