@@ -34,14 +34,14 @@ git config --global user.email
 git config --global user.name
 </pre>
 
-## Push Project From Visual Studio Code To GitHub
+## Push Project From Visual Studio Code To GitHub New Repository
 <pre>
 echo "# List-of-Useful-Git-Commands" >> README.md
 git init
 git add -A
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/abc/
+git remote add origin https://github.com/abc/ (location)
 git push -u origin main
 </pre>
 
@@ -50,9 +50,12 @@ Open VS Code > Install An Extension > GitHub Pull Requests (GitHub) > settings >
 Done
 
 ## Push An Existing Repository From The Command Line
+Clone Your Github Project First.
+### Git CLone Command
+<pre>git clone repository_link</pre>
 <pre>
-git remote add origin https://github.com/abc/
 git branch -M main
+git remote add origin https://github.com/abc/
 git push -u origin main
 </pre>
 
