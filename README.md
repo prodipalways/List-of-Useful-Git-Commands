@@ -15,7 +15,7 @@ Past Public Key → ADD SSH KEY → Done...
 
 ## Push Project From Visual Studio Code To GitHub New Repository
 <pre>
-echo "# List-of-Useful-Git-Commands" >> README.md
+echo "# your_repository_name" >> README.md
 git init
 git add -A
 git commit -m "first commit"
@@ -29,10 +29,13 @@ Clone Your Github Project First.
 ### Git CLone Command
 <pre>git clone repository_link
 cd repository_name</pre>
-<pre>
+
 Now Add Your File This Folder
 
-<pre>git branch -M main
+<pre>
+git add -A
+git commit -m "Your Comment"
+git branch -M main
 git remote add origin repository_SSH_Location
 git push -u origin main
 </pre>
