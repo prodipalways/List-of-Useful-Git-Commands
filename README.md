@@ -30,7 +30,9 @@ Clone Your Github Project First.
 <pre>git clone repository_link
 cd repository_name</pre>
 <pre>
-git branch -M main
+Now Add Your File This Folder
+
+<pre>git branch -M main
 git remote add origin repository_SSH_Location
 git push -u origin main
 </pre>
