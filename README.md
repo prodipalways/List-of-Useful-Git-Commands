@@ -28,7 +28,7 @@ git push -u origin main
 Clone Your Github Project First.
 ### Git CLone Command
 <pre>git clone repository_link
-cd repository_name</pre>
+cd repository_floder_name</pre>
 
 Now Add Your File This Folder
 
