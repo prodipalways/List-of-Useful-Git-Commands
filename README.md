@@ -7,7 +7,7 @@ Git is a version control system that helps programmers and developers manage and
 Profile → Settings → SSH and GPG Key → SSH Keys → New SSH Key → Title →
 ### 2. VS Code Command In Terminal:
 <pre>ssh-keygen -t ed25519 -C "yourmail@gmail.com"</pre>
-Press Enter 3 times
+Press Enter 3 times(If y/n then type y then enter)
 <pre>cat ~/.ssh/id_ed25519.pub | clip</pre>
 Here Copy a Key past any text document for checking perpose. If key is create then...
 ### 3. In Github
