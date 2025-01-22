@@ -27,7 +27,8 @@ git push -u origin main
 ## Push An Existing Repository From The Command Line
 Clone Your Github Project First.
 ### Git CLone Command
-<pre>git clone repository_link</pre>
+<pre>git clone repository_link
+cd repository_name</pre>
 <pre>
 git branch -M main
 git remote add origin repository_SSH_Location
