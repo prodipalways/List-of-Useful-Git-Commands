@@ -41,7 +41,8 @@ git push -u origin main
 </pre>
 
 ### Fetch Down Any Changes From Global Repository To Current Repository
-<pre>git fetch</pre>
+<pre>git fetch
+git pull</pre>
 
 ## 💎💎💎 error: remote origin already exists 💎💎💎
 ### Check fach and pull location
