@@ -11,8 +11,7 @@ Press Enter 3 times(If y/n then type y then enter)
 <pre>cat ~/.ssh/id_ed25519.pub | clip</pre>
 Here Copy a Key past any text document for checking perpose. If key is create then...
 ### 3. In Github
-Past Public Key → ADD SSH KEY
-Done...
+Past Public Key → ADD SSH KEY → Done...
 
 ## Push Project From Visual Studio Code To GitHub New Repository
 <pre>
