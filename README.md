@@ -40,6 +40,9 @@ git remote add origin repository_SSH_Location
 git push -u origin main
 </pre>
 
+### Fetch Down Any Changes From Global Repository To Current Repository
+<pre>git fetch</pre>
+
 ## 💎💎💎 error: remote origin already exists 💎💎💎
 ### Check fach and pull location
 <pre>git remote --verbose</pre>
@@ -263,10 +266,6 @@ To create a new tag.
 ### 44. git push –tags
 To push the tags to the remote repository.
 <pre>git push –tags</pre>
-
-### 45. git fetch
-To fetch down any changes from the global repository to the current repository.
-<pre>git fetch</pre>
 
 ### 46. git stash
 To move staged files to the stash area which is present in the staging area.
