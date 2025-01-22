@@ -40,30 +40,29 @@ git remote add origin repository_SSH_Location
 git push -u origin main
 </pre>
 
-## 💎💎💎 Check fach and pull location 💎💎💎
+## 💎💎💎 error: remote origin already exists 💎💎💎
+### Check fach and pull location
 <pre>git remote --verbose</pre>
+If your fetch and pull location is right then you can push your file
 
-## 🔑 To Open OR Close Explorer "VS Keyboard Shortcuts"
+## 💎💎💎 To Open OR Close Explorer "VS Keyboard Shortcuts" 💎💎💎
 <pre>Ctrl + b</pre>
 
-## 🔑 To Open A New Terminal "VS Keyboard Shortcuts"
+## 💎💎💎 To Open A New Terminal "VS Keyboard Shortcuts" 💎💎💎
 <pre>Ctrl + Shift + `</pre>
 
-## Set Git UserName and Email On The Command Line
+## 💎💎💎 Set Git UserName and Email On The Command Line 💎💎💎
 <pre>
 git config --global user.email abc@gmail.com
 git config --global user.name abc
 </pre>
-
-## Check Git UserName and Email On The Command Line
+#### Check Git UserName and Email On The Command Line
 <pre>
 git config --global user.email
 git config --global user.name
 </pre>
 
-
-
-## Pull Project From GitHub To Visual Studio Code
+## 💎💎💎 Pull Project From GitHub To Visual Studio Code 💎💎💎
 Open VS Code > Install An Extension > GitHub Pull Requests (GitHub) > settings > Command Palette > git clone >  clone from github > give link of your repo > select repository location > create folder > select > File > Open Folder > Select Your Folder > 
 Done
 
